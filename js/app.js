@@ -10,7 +10,7 @@ btn.addEventListener('click', function(e) {
     e.preventDefault();
 
     if (title.value == '' && author.value == '' && year.value == '') {
-        alert('No title or author')
+        alert('add something')
     }
     else{
         const newRow = document.createElement('tr');
